@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+
+</head>
+
+<body onload="onInit()">
+    <div class="stopwatch">
+        <p><span class="seconds">00</span>:<span class="miliseconds">000</span></p>
+        <button value="16" onclick="onEasy(this)" class="button-easy">Easy</button>
+        <button value="25" onclick="onMedium(this)" class="button-medium">Medium</button>
+        <button value="36" onclick="onHard(this)" class="button-hard">Hard</button>
+    </div>
+    <table  cellpadding="10">
+        <tbody class="board">
+
+        </tbody>
+    </table>
+    <button class="button-reset" onclick="onResetGame()">Restart</button>
+    <script src="main.js"></script>
+</body>
+
+</html>

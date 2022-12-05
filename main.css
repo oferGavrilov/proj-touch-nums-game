@@ -1,0 +1,51 @@
+body {
+    background-color:#ffa600;
+    font-family: cursive;
+    text-align: center;
+}
+
+table {
+    border: 2px solid white;
+    background-color: #ffa600;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    font-size: 60px;
+    box-shadow: 9px 11px 37px 0px rgba(0,0,0,0.75);
+}
+
+td {
+    height:80px;
+    width: 120px;
+    border: 2px solid black;
+}
+
+td:hover {
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+
+.stopwatch{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+button {
+    background-color: #ffa600;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 120px;
+    margin: 20px;
+}
+
+button:hover {
+    background: white;
+    border: 1px solid white;
+    transition: 0.2s;
+    color: #ffa600
+}
